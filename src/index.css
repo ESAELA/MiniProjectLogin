@@ -6,3 +6,9 @@
 @theme {
     --font-display: "Open Sans", sans-serif;
   }
+
+  @layer components {
+    .input-medium {
+        width: 500px;
+    }
+  }
