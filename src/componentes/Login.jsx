@@ -11,7 +11,7 @@ function Login () {
                     <input className="bg-gray-100 p-3 px-5 w-full uppercase font-thin md:w-xl md:h-15 lg:w-92 lg:h-12" type="email" name="" id="" placeholder="Úsuario"/>
                     <input className="bg-gray-100 p-3 px-5 w-full uppercase font-thin md:w-xl md:h-15 lg:w-92 lg:h-12" type="password" name="" id="" placeholder="Password"/>
                     <div className=' p-2 px-4 py-4 mt-4 rounded-4xl cursor-pointer border-2 border-gray-300 transition duration-300 ease-in-out hover:-translate-y-1'>
-                        <Icon path={mdiArrowRight} size={2} />
+                        <Icon path={mdiArrowRight} size={1.4} />
                     </div>
                     <div className='flex flex-col items-center gap-2 text-gray-500 mt-2 text-sm font-extrabold uppercase'>
                         <a className="hover:text-black" href="recovery">Não consegue entrar?</a>
