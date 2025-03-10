@@ -15,7 +15,7 @@ function Login () {
                     </div>
                     <div className='flex flex-col items-center gap-2 text-gray-500 mt-2 text-sm font-extrabold uppercase'>
                         <a className="hover:text-black" href="recovery">Não consegue entrar?</a>
-                        <a className="hover:text-black" href="">Criar uma conta?</a>
+                        <a className="hover:text-black" href="register">Criar uma conta?</a>
                     </div>
                 </div>
             </div>
