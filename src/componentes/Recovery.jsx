@@ -23,7 +23,7 @@ function Recovery () {
                     </div>
             
 
-                    <div className='xl:flex xl:space-x-10 md:w-3xl xl:justify-center space-y-10 xl:space-y-0 xl:w-6xl'>
+                    <div className='xl:flex xl:space-x-10 md:w-2xl xl:justify-center space-y-10 xl:space-y-0 xl:w-6xl'>
 
                     <div className="p-13 bg-white flex flex-col items-center  transition duration-200 ease-in-out hover:-translate-y-1 cursor-pointer">
                         <div className='mb-5'>

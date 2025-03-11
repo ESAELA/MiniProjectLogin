@@ -5,7 +5,7 @@ function Login () {
     return (
         <div className="bg-gray-300 min-h-screen items-center justify-center flex h-screen w-screen">
             
-            <div className="bg-white p-20 max-w-md md:px-80 md:py-20 lg:p-20 rounded-sm shadow-xl flex flex-col items-center font-display">
+            <div className="bg-white p-20 max-w-md md:px-80 md:py-20 lg:p-20 shadow-xl flex flex-col items-center font-display">
                 <div className="w-92 flex flex-col gap-7 items-center ">
                     <h2 className='uppercase mb-3 font-medium text-2xl'>Login</h2>
                     <input className="bg-gray-100 p-3 px-5 w-full uppercase font-thin md:w-xl md:h-15 lg:w-92 lg:h-12" type="email" name="" id="" placeholder="Úsuario"/>
