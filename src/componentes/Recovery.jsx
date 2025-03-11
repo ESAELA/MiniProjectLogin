@@ -25,7 +25,7 @@ function Recovery () {
 
                     <div className='xl:flex xl:space-x-10 md:w-2xl xl:justify-center space-y-10 xl:space-y-0 xl:w-6xl'>
 
-                    <div className="p-13 bg-white flex flex-col items-center  transition duration-200 ease-in-out hover:-translate-y-1 cursor-pointer">
+                    <a href='forgotUsername' className="p-13 bg-white flex flex-col items-center  transition duration-200 ease-in-out hover:-translate-y-1 cursor-pointer">
                         <div className='mb-5'>
                             <Icon path={mdiAccount} size={5} />
                         </div>
@@ -37,8 +37,8 @@ function Recovery () {
                                 Você pode solicitar um lembrete que será enviado para o teu email vinculado aqui.
                             </p>
                         </div>
-                    </div>
-                    <div className="p-13 bg-white flex flex-col  items-center gap-3 transition duration-200 ease-in-out hover:-translate-y-1 cursor-pointer">
+                    </a>
+                    <a href='forgotpassword' className="p-13 bg-white flex flex-col  items-center gap-3 transition duration-200 ease-in-out hover:-translate-y-1 cursor-pointer">
                         <div className='mb-5'>
                             <Icon path={mdiLockCheck} size={5} />
                         </div>
@@ -51,7 +51,7 @@ function Recovery () {
                             </p>
                         </div>
                         
-                    </div>
+                    </a>
 
                     </div>
 

@@ -6,6 +6,8 @@ import App from './App.jsx'
 import Login from "./componentes/Login"
 import Recovery from "./componentes/Recovery"
 import Register from "./componentes/Register"
+import ForgotPassword from "./componentes/ForgotPassword.jsx";
+import ForgotUsername from "./componentes/forgotUsername.jsx";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -14,6 +16,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route path="/login" element={<Login />} />
       <Route path="/recovery" element={<Recovery />} />
       <Route path="/register" element={<Register />} />
+      <Route path="/forgotpassword" element={<ForgotPassword />} />
+      <Route path="/forgotusername" element={<ForgotUsername />} />
     </Routes>
   </BrowserRouter>
 )
