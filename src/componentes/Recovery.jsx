@@ -9,14 +9,14 @@ function Recovery () {
 
                 <div className="max-w-sm flex flex-col gap-5 mt-20 xl:flex-col xl:justify-center xl:items-center md:items-center md:flex-col">
 
-                    <div className="p-10 text-white space-y-8 xl:w-6xl md:w-3xl xl:flex xl:flex-col xl:items-center xl:justify-center">
-                        <div className='xl:w-5xl xl:h-20 xl:flex xl:items-center xl:justify-center'>
-                            <h1 className="text-4xl font-semibold text-center uppercase md:text-7xl md:leading-20 l:text-7xl xl:leading-10 -tracking-tighter"> 
+                    <div className="p-10 text-white space-y-8 xl:w-6xl md:w-3xl xl:flex xl:flex-col xl:items-center xl:justify-center sm:flex sm:flex-col sm:justify-center sm:items-center">
+                        <div className='xl:w-5xl xl:h-20 xl:flex xl:items-center xl:justify-center sm:w-md'>
+                            <h1 className="text-4xl font-semibold text-center uppercase md:text-5xl sm:text-5xl sm:leading-15 md:leading-15 xl:text-7xl xl:leading-10 -tracking-tighter"> 
                                 Não consegue entrar?
                             </h1>
                         </div>
-                        <div className='xl:w-3xl'>
-                            <p className="text-xl text-center md:text-4xl  xl:text-2xl tracking-[2px]">
+                        <div className='xl:w-3xl sm:w-xl'>
+                            <p className="text-md text-center md:text-4xl  xl:text-2xl tracking-[2px] sm:text-3xl">
                                 Há alguns motivos pelos quais você pode não conseguir fazer login. Verifique as opções abaixo para possíveis soluções.
                             </p>
                         </div>
@@ -29,7 +29,7 @@ function Recovery () {
                         <div className='mb-5'>
                             <Icon path={mdiAccount} size={5} />
                         </div>
-                        <div className='xl:w-92 xl:h-50 xl:space-y-5 md:space-y-5 md:w-1xl'>
+                        <div className='xl:w-92 xl:h-50 xl:space-y-5 md:space-y-5 md:w-1xl '>
                             <h1 className='text-center text-2xl md:text-5xl font-semibold xl:text-4xl'>
                                 Esqueçeu o nome de usuário?
                             </h1>
